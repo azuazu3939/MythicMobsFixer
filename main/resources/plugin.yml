@@ -1,0 +1,7 @@
+name: MythicMobsFixer
+version: '${project.version}'
+main: azuazu3939.mythicmobsfixer.MythicMobsFixer
+api-version: 1.17
+depend: [ MythicMobs ]
+authors: [ azuazu3939 ]
+description: MythicMobsアイテムを最新状態に維持するPlugin
