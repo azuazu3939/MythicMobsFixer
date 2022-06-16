@@ -1,7 +1,19 @@
 name: MythicMobsFixer
 version: '${project.version}'
 main: azuazu3939.mythicmobsfixer.MythicMobsFixer
-api-version: 1.17
+api-version: 1.15
 depend: [ MythicMobs ]
 authors: [ azuazu3939 ]
-description: MythicMobsアイテムを最新状態に維持するPlugin
+description: 1.15.2のMythicMobsFixer
+
+commands:
+  mmf:
+    description: MythicMobsFixerコマンド
+    aliases: [mmfixer, mythicmobsf, mythicmobsfixer]
+    permission: MythicMobsFixer.mmf
+    usage: /mmf [add/remove] mmitemid
+
+permissions:
+  MythicMobs.mmf:
+    description: mmf使える。
+    default: op

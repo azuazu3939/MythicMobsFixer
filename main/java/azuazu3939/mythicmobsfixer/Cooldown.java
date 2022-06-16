@@ -25,4 +25,3 @@ public class Cooldown {
         return !cooldowns.containsKey(player.getUniqueId()) || cooldowns.get(player.getUniqueId()) <= (double)System.currentTimeMillis();
     }
 }
-
